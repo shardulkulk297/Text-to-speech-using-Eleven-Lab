@@ -1,13 +1,12 @@
-
 import requests
 
 CHUNK_SIZE = 1024
-url = "https://api.elevenlabs.io/v1/text-to-speech/d4MXCgbY2HLyaf0IhQqD"
+url = "https://api.elevenlabs.io/v1/text-to-speech/voice id"
 
 headers = {
   "Accept": "audio/mpeg",
   "Content-Type": "application/json",
-  "xi-api-key": "bf64e95f36034eb26c12300117af97b4"
+  "xi-api-key": "api key"
 }
 
 data = {
